@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+ 
+class A1;  // A1 class decalration 
+ 
+class A2{
+	int counta2;
+	public:
+		A2()
+		{
+			counta2=18;
+		}
+		
+		friend A1;
+}; 
+
+class A1{
+	public:
+		void get(A2 obj);
+		//friend class A2;
+		// void add(A1 obj, A2 obj1)
+};
+
+void A1::get(A2 obj){
+	cout<<"\n access count a2 of class A2="<<obj.counta2;
+}
+
+
+
+int main()
+{
+	A2 obj;
+	A1 a1;
+	a1.get(obj);
+}
