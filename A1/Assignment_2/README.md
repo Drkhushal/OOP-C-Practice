@@ -141,7 +141,66 @@ public:
 
 ## 📌 Sample Code
 
-### 🔗 File Link
+```cpp
+#include <iostream>
+using namespace std;
+
+class Student {
+    string name;
+    int age;
+
+public:
+    // Default constructor
+    Student() {
+        name = "Unknown";
+        age = 0;
+        cout << "Default constructor called" << endl;
+    }
+
+    // Parameterized constructor
+    Student(string n, int a) {
+        name = n;
+        age = a;
+        cout << "Parameterized constructor called" << endl;
+    }
+
+    // Copy constructor
+    Student(const Student &s) {
+        name = s.name;
+        age = s.age;
+        cout << "Copy constructor called" << endl;
+    }
+
+    // Destructor
+    ~Student() {
+        cout << "Destructor called for " << name << endl;
+    }
+
+    // Member Functions
+    void display() {
+        cout << "Name: " << name << ", Age: " << age << endl;
+    }
+
+
+};
+
+int main() {
+    Student s1;                 // Default
+    Student s2("Mansi", 19);    // Parameterized
+    Student s3 = s2;            // Copy constructor
+
+    cout << "\n--- Displaying Objects ---" << endl;
+    s1.display();
+    s2.display();
+    s3.display();
+
+    return 0;
+}
+```
+
+---
+
+## 🔗 File Link
 
 👉 [Click here to view the `.cpp` code file](./constructor_types.cpp)
 

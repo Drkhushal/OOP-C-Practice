@@ -112,7 +112,58 @@ void ClassName::functionName() {
 
 ## 📌 Sample Code
 
-### 🔗 File Link
+```cpp
+#include<iostream>
+using namespace std;
+
+// Class Name Bank Created
+class Bank {
+    
+    // Class Data Members (Variable) : Default in Private Block
+    long long int accno;
+
+public:
+    // Default Constructor
+    Bank() {
+        cout << "Bank object created successfully!" << endl;
+        accno = 0;
+    }
+
+    // Class Member Function Declaration
+    void get();
+    void display();
+
+    // Destructor
+    ~Bank() {
+        cout << "Bank object destroyed!" << endl;
+    }
+};
+
+// Class Member Function Defination with Scope Resolution (::) Operator
+void Bank :: get(){
+    cout << "Enter the Account Number : " ;
+    cin >> accno;
+}
+
+void Bank :: display(){
+    cout << "Your Account Number : " << accno << endl;
+}
+
+int main(){
+
+    // An Instance (Object) of class Bank named user is created
+    Bank user; 
+
+    // Object calling member functions of the class
+    user.get();
+    user.display();
+
+}
+```
+
+---
+
+## 🔗 File Link
 
 👉 [Click here to view the `sample_code.cpp` code file](./class_objects.cpp)
 
