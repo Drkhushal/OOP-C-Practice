@@ -22,10 +22,20 @@ class Bank {
     long long int accno;
 
 public:
+    // Default Constructor
+    Bank() {
+        cout << "Bank object created successfully!" << endl;
+        accno = 0;
+    }
 
     // Class Member Function Declaration
     void get();
     void display();
+
+    // Destructor
+    ~Bank() {
+        cout << "Bank object destroyed!" << endl;
+    }
 };
 
 // Class Member Function Defination with Scope Resolution (::) Operator
