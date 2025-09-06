@@ -49,6 +49,14 @@ return_type operator op(parameters) {
 }
 ```
 
+**Definition (Outside Class)**
+
+```cpp
+return_type ClassName::operator+(const ClassName &obj) {
+    // operator logic
+}
+```
+
 ---
 
 ## 📌 Sample Code
