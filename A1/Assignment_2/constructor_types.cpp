@@ -29,23 +29,34 @@ public:
     Student() {
         name = "Unknown";
         age = 0;
+        cout << "Default constructor called" << endl;
     }
 
     // Parameterized constructor
     Student(string n, int a) {
         name = n;
         age = a;
+        cout << "Parameterized constructor called" << endl;
     }
 
     // Copy constructor
     Student(const Student &s) {
         name = s.name;
         age = s.age;
+        cout << "Copy constructor called" << endl;
     }
 
+    // Destructor
+    ~Student() {
+        cout << "Destructor called for " << name << endl;
+    }
+
+    // Member Functions
     void display() {
         cout << "Name: " << name << ", Age: " << age << endl;
     }
+
+
 };
 
 int main() {
@@ -53,6 +64,7 @@ int main() {
     Student s2("Mansi", 19);    // Parameterized
     Student s3 = s2;            // Copy constructor
 
+    cout << "\n--- Displaying Objects ---" << endl;
     s1.display();
     s2.display();
     s3.display();
