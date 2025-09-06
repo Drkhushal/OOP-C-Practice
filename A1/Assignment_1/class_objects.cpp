@@ -58,3 +58,13 @@ int main(){
     user.display();
 
 }
+
+// Output
+
+/*
+    Bank object created successfully!
+    Enter the Account Number : 123456789
+    Your Account Number : 123456789
+    Bank object destroyed!
+    [Finished in 7.00s]
+*/

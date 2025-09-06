@@ -112,9 +112,7 @@ void ClassName::functionName() {
 
 ## 📌 Sample Code
 
----
-
-## 🔗 File Link
+### 🔗 File Link
 
 👉 [Click here to view the `sample_code.cpp` code file](./class_objects.cpp)
 

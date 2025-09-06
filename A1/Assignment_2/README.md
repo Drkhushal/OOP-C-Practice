@@ -141,9 +141,7 @@ public:
 
 ## 📌 Sample Code
 
----
-
-## 🔗 File Link
+### 🔗 File Link
 
 👉 [Click here to view the `.cpp` code file](./constructor_types.cpp)
 

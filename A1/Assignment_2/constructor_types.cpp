@@ -71,3 +71,20 @@ int main() {
 
     return 0;
 }
+
+// Output
+
+/*
+    Default constructor called
+    Parameterized constructor called
+    Copy constructor called
+
+    --- Displaying Objects ---
+    Name: Unknown, Age: 0
+    Name: Mansi, Age: 19
+    Name: Mansi, Age: 19
+    Destructor called for Mansi
+    Destructor called for Mansi
+    Destructor called for Unknown
+    [Finished in 1.60s]
+*/
