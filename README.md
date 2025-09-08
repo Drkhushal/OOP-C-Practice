@@ -28,6 +28,44 @@ A1/
 
 ---
 
+## 📝 Practicals Overview
+
+### Practical No.01 – Class and Objects
+**Concepts Covered:**
+- Class & Object basics
+- Constructor
+- Destructor
+- User-defined member functions
+
+### Practical No.02 – Constructor Types
+**Concepts Covered:**
+- Default constructor
+- Parameterized constructor
+- Copy constructor
+
+### Practical No.03 – Operator Overloading
+**Concepts Covered:**
+- Operator overloading basics
+- Using default constructor
+- Using parameterized constructor
+- Overloading binary operator (+)
+
+### Practical No.04 – Dynamic Memory
+**Concepts Covered:**
+- References (&)
+- Pointers (*)
+- `new` operator (dynamic allocation)
+- `delete` operator (free memory)
+
+### Practical No.05 – Function Types, Friend Class
+**Concepts Covered:**
+- `this` pointer
+- Inline function
+- Static member function
+- Friend class
+
+---
+
 ## ✨ Features
 - 📄 **Markdown Notes** → Easy-to-read summaries of concepts.  
 - 💻 **C++ Code** → Clean, simple, and well-commented.  
