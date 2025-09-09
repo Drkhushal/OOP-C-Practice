@@ -36,12 +36,14 @@ A1/
 - Constructor
 - Destructor
 - User-defined member functions
+- [Go to Notes 👆](./A1/Assignment_1)
 
 ### Practical No.02 – Constructor Types
 **Concepts Covered:**
 - Default constructor
 - Parameterized constructor
 - Copy constructor
+- [Go to Notes 👆](./A1/Assignment_2)
 
 ### Practical No.03 – Operator Overloading
 **Concepts Covered:**
@@ -49,6 +51,7 @@ A1/
 - Using default constructor
 - Using parameterized constructor
 - Overloading binary operator (+)
+- [Go to Notes 👆](./A1/Assignment_3)
 
 ### Practical No.04 – Dynamic Memory
 **Concepts Covered:**
@@ -56,6 +59,7 @@ A1/
 - Pointers (*)
 - `new` operator (dynamic allocation)
 - `delete` operator (free memory)
+- [Go to Notes 👆](./A1/Assignment_4)
 
 ### Practical No.05 – Function Types, Friend Class
 **Concepts Covered:**
@@ -63,6 +67,7 @@ A1/
 - Inline function
 - Static member function
 - Friend class
+- [Go to Notes 👆](./A1/Assignment_5)
 
 ---
 
