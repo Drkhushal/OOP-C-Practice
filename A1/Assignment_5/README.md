@@ -16,7 +16,7 @@
 **Example:**
 ```cpp
 this->marks = m;
-````
+```
 
 ---
 
@@ -121,5 +121,3 @@ int main() {
 ## 🔗 File Link
 
 👉 [Click here to view the `.cpp` code file](./function_types_friend.cpp)
-
-
